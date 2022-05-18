@@ -1,0 +1,12 @@
+{
+  "name": "saralshare-web",
+  "version": "1.0.0",
+  "description": "This is a redirect server for saral share",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
