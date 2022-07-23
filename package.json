@@ -1,12 +1,28 @@
 {
-  "name": "saralshare-web",
-  "version": "1.0.0",
-  "description": "This is a redirect server for saral share",
-  "main": "index.js",
+  "name": "saralshareweb",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "node ./index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.4",
+    "jsonwebtoken": "^8.5.1",
+    "next": "12.2.3",
+    "qrcode.react": "^3.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "socket.io-client": "^4.5.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.3",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
+  }
 }
